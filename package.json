@@ -1,0 +1,16 @@
+{
+  "name": "node-red-contrib-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Node-RED modules for downloader",
+  "author": "Nick Untitled",
+  "keywords": [
+    "node-red"
+  ],
+  "node-red": {
+    "nodes": {
+      "downloader": "downloader/downloader.js"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<script type="text/javascript">
+    RED.nodes.registerType('downloader',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value: "Downloader" },
+            url: {value: ""},
+            path: {value: ""}
+        },
+        icon: 'inject.svg',
+        inputs:1,
+        outputs:1,
+        label: function() {
+            return this.name||"downloader";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="downloader">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-url"><i class="fa fa-tag"></i> URL</label>
+        <input type="text" id="node-input-url" placeholder="URL">
+    </div>
+    <div class="form-row">
+        <label for="node-input-path"><i class="fa fa-tag"></i> Save Path</label>
+        <input type="text" id="node-input-path" placeholder="Save Path">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="downloader">
+    <p>A downloader node is used for downloading file from the server.</p>
+    <p>
+        You can input to this node by using JSON in msg.payload as {"url":"URL","path":"Save Absolute Path"}.
+        If you don't want to manually input inside this node.
+    </p>
+</script>
