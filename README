@@ -1,9 +1,0 @@
-# Node-RED Contrib Downloader
-
-This customized Node-RED is used for downloading files. If you want to download file without setting in this node, you can input in msg.payload as JSON format like 
-
-```
-{"url":"URL","path":"Save Absolute Path"}
-```
-
-Then, after deploying this flow, you have to inject the input from another node to invoke download node.
