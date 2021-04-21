@@ -27,4 +27,4 @@ Then, after deploying this flow, you have to inject the input from another node 
 
 ### In Thai Language
 
-You can follow installation manuals inside [my blog post](https://nickuntitled.com/2021/03/27/customize-node-red-module-for-yourself/). For usage, I will write later. :P
+You can follow installation manuals inside [my blog post](https://nickuntitled.com/2021/03/27/customize-node-red-module-for-yourself/). For usage, [follow this](https://nickuntitled.com/2021/04/21/1st-customized-node-red-is-downloader/). :P
